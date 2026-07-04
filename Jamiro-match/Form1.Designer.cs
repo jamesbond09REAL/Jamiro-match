@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.orangebackj1 = new System.Windows.Forms.Button();
             this.orangebackj2 = new System.Windows.Forms.Button();
@@ -53,6 +54,8 @@
             this.tuffcover2 = new System.Windows.Forms.Button();
             this.guycover2 = new System.Windows.Forms.Button();
             this.guycover1 = new System.Windows.Forms.Button();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.shuffle = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // orangebackj1
@@ -60,6 +63,7 @@
             this.orangebackj1.BackColor = System.Drawing.SystemColors.ControlDark;
             this.orangebackj1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("orangebackj1.BackgroundImage")));
             this.orangebackj1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.orangebackj1.Enabled = false;
             this.orangebackj1.Location = new System.Drawing.Point(346, 92);
             this.orangebackj1.Name = "orangebackj1";
             this.orangebackj1.Size = new System.Drawing.Size(59, 126);
@@ -70,6 +74,7 @@
             // 
             this.orangebackj2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("orangebackj2.BackgroundImage")));
             this.orangebackj2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.orangebackj2.Enabled = false;
             this.orangebackj2.Location = new System.Drawing.Point(411, 92);
             this.orangebackj2.Name = "orangebackj2";
             this.orangebackj2.Size = new System.Drawing.Size(59, 126);
@@ -80,6 +85,7 @@
             // 
             this.peakyj1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("peakyj1.BackgroundImage")));
             this.peakyj1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.peakyj1.Enabled = false;
             this.peakyj1.Location = new System.Drawing.Point(476, 92);
             this.peakyj1.Name = "peakyj1";
             this.peakyj1.Size = new System.Drawing.Size(59, 126);
@@ -90,6 +96,7 @@
             // 
             this.peakyj2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("peakyj2.BackgroundImage")));
             this.peakyj2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.peakyj2.Enabled = false;
             this.peakyj2.Location = new System.Drawing.Point(541, 92);
             this.peakyj2.Name = "peakyj2";
             this.peakyj2.Size = new System.Drawing.Size(59, 126);
@@ -100,6 +107,7 @@
             // 
             this.thegang1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("thegang1.BackgroundImage")));
             this.thegang1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.thegang1.Enabled = false;
             this.thegang1.Location = new System.Drawing.Point(346, 224);
             this.thegang1.Name = "thegang1";
             this.thegang1.Size = new System.Drawing.Size(59, 126);
@@ -110,6 +118,7 @@
             // 
             this.thegang2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("thegang2.BackgroundImage")));
             this.thegang2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.thegang2.Enabled = false;
             this.thegang2.Location = new System.Drawing.Point(411, 224);
             this.thegang2.Name = "thegang2";
             this.thegang2.Size = new System.Drawing.Size(59, 126);
@@ -120,6 +129,7 @@
             // 
             this.manwearing1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("manwearing1.BackgroundImage")));
             this.manwearing1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.manwearing1.Enabled = false;
             this.manwearing1.Location = new System.Drawing.Point(476, 224);
             this.manwearing1.Name = "manwearing1";
             this.manwearing1.Size = new System.Drawing.Size(59, 126);
@@ -130,6 +140,7 @@
             // 
             this.manwearing2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("manwearing2.BackgroundImage")));
             this.manwearing2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.manwearing2.Enabled = false;
             this.manwearing2.Location = new System.Drawing.Point(541, 224);
             this.manwearing2.Name = "manwearing2";
             this.manwearing2.Size = new System.Drawing.Size(59, 126);
@@ -140,6 +151,7 @@
             // 
             this.snailmail1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("snailmail1.BackgroundImage")));
             this.snailmail1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.snailmail1.Enabled = false;
             this.snailmail1.Location = new System.Drawing.Point(346, 356);
             this.snailmail1.Name = "snailmail1";
             this.snailmail1.Size = new System.Drawing.Size(59, 126);
@@ -150,6 +162,7 @@
             // 
             this.snailmail2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("snailmail2.BackgroundImage")));
             this.snailmail2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.snailmail2.Enabled = false;
             this.snailmail2.Location = new System.Drawing.Point(411, 356);
             this.snailmail2.Name = "snailmail2";
             this.snailmail2.Size = new System.Drawing.Size(59, 126);
@@ -160,6 +173,7 @@
             // 
             this.tuffaura1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tuffaura1.BackgroundImage")));
             this.tuffaura1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.tuffaura1.Enabled = false;
             this.tuffaura1.Location = new System.Drawing.Point(476, 356);
             this.tuffaura1.Name = "tuffaura1";
             this.tuffaura1.Size = new System.Drawing.Size(59, 126);
@@ -170,6 +184,7 @@
             // 
             this.tuffaura2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tuffaura2.BackgroundImage")));
             this.tuffaura2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.tuffaura2.Enabled = false;
             this.tuffaura2.Location = new System.Drawing.Point(541, 356);
             this.tuffaura2.Name = "tuffaura2";
             this.tuffaura2.Size = new System.Drawing.Size(59, 126);
@@ -178,6 +193,7 @@
             // 
             // snailcover1
             // 
+            this.snailcover1.Enabled = false;
             this.snailcover1.Location = new System.Drawing.Point(346, 356);
             this.snailcover1.Name = "snailcover1";
             this.snailcover1.Size = new System.Drawing.Size(59, 126);
@@ -187,6 +203,7 @@
             // 
             // gangcover1
             // 
+            this.gangcover1.Enabled = false;
             this.gangcover1.Location = new System.Drawing.Point(346, 224);
             this.gangcover1.Name = "gangcover1";
             this.gangcover1.Size = new System.Drawing.Size(59, 126);
@@ -196,6 +213,7 @@
             // 
             // ocover1
             // 
+            this.ocover1.Enabled = false;
             this.ocover1.Location = new System.Drawing.Point(346, 92);
             this.ocover1.Name = "ocover1";
             this.ocover1.Size = new System.Drawing.Size(59, 126);
@@ -205,6 +223,7 @@
             // 
             // gangcover2
             // 
+            this.gangcover2.Enabled = false;
             this.gangcover2.Location = new System.Drawing.Point(411, 224);
             this.gangcover2.Name = "gangcover2";
             this.gangcover2.Size = new System.Drawing.Size(59, 126);
@@ -214,6 +233,7 @@
             // 
             // snailcover2
             // 
+            this.snailcover2.Enabled = false;
             this.snailcover2.Location = new System.Drawing.Point(411, 356);
             this.snailcover2.Name = "snailcover2";
             this.snailcover2.Size = new System.Drawing.Size(59, 126);
@@ -223,6 +243,7 @@
             // 
             // ocover2
             // 
+            this.ocover2.Enabled = false;
             this.ocover2.Location = new System.Drawing.Point(411, 92);
             this.ocover2.Name = "ocover2";
             this.ocover2.Size = new System.Drawing.Size(59, 126);
@@ -232,6 +253,7 @@
             // 
             // tuffcover1
             // 
+            this.tuffcover1.Enabled = false;
             this.tuffcover1.Location = new System.Drawing.Point(476, 356);
             this.tuffcover1.Name = "tuffcover1";
             this.tuffcover1.Size = new System.Drawing.Size(59, 126);
@@ -241,6 +263,7 @@
             // 
             // peakycover1
             // 
+            this.peakycover1.Enabled = false;
             this.peakycover1.Location = new System.Drawing.Point(476, 92);
             this.peakycover1.Name = "peakycover1";
             this.peakycover1.Size = new System.Drawing.Size(59, 126);
@@ -250,6 +273,7 @@
             // 
             // peakycover2
             // 
+            this.peakycover2.Enabled = false;
             this.peakycover2.Location = new System.Drawing.Point(541, 92);
             this.peakycover2.Name = "peakycover2";
             this.peakycover2.Size = new System.Drawing.Size(59, 126);
@@ -259,6 +283,7 @@
             // 
             // tuffcover2
             // 
+            this.tuffcover2.Enabled = false;
             this.tuffcover2.Location = new System.Drawing.Point(541, 356);
             this.tuffcover2.Name = "tuffcover2";
             this.tuffcover2.Size = new System.Drawing.Size(59, 126);
@@ -268,6 +293,7 @@
             // 
             // guycover2
             // 
+            this.guycover2.Enabled = false;
             this.guycover2.Location = new System.Drawing.Point(541, 224);
             this.guycover2.Name = "guycover2";
             this.guycover2.Size = new System.Drawing.Size(59, 126);
@@ -277,6 +303,7 @@
             // 
             // guycover1
             // 
+            this.guycover1.Enabled = false;
             this.guycover1.Location = new System.Drawing.Point(476, 224);
             this.guycover1.Name = "guycover1";
             this.guycover1.Size = new System.Drawing.Size(59, 126);
@@ -284,11 +311,28 @@
             this.guycover1.UseVisualStyleBackColor = true;
             this.guycover1.Click += new System.EventHandler(this.guycover1_Click);
             // 
+            // timer1
+            // 
+            this.timer1.Enabled = true;
+            this.timer1.Interval = 50;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
+            // shuffle
+            // 
+            this.shuffle.Location = new System.Drawing.Point(619, 167);
+            this.shuffle.Name = "shuffle";
+            this.shuffle.Size = new System.Drawing.Size(285, 211);
+            this.shuffle.TabIndex = 24;
+            this.shuffle.Text = "Begin and shuffle baby!";
+            this.shuffle.UseVisualStyleBackColor = true;
+            this.shuffle.Click += new System.EventHandler(this.shuffle_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(928, 570);
+            this.Controls.Add(this.shuffle);
             this.Controls.Add(this.guycover1);
             this.Controls.Add(this.guycover2);
             this.Controls.Add(this.tuffcover2);
@@ -345,6 +389,8 @@
         private System.Windows.Forms.Button tuffcover2;
         private System.Windows.Forms.Button guycover2;
         private System.Windows.Forms.Button guycover1;
+        private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.Button shuffle;
     }
 }
 
