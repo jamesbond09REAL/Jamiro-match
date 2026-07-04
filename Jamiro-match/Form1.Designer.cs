@@ -56,6 +56,7 @@
             this.guycover1 = new System.Windows.Forms.Button();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.shuffle = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // orangebackj1
@@ -327,11 +328,21 @@
             this.shuffle.UseVisualStyleBackColor = true;
             this.shuffle.Click += new System.EventHandler(this.shuffle_Click);
             // 
+            // textBox1
+            // 
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Location = new System.Drawing.Point(94, 27);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(194, 44);
+            this.textBox1.TabIndex = 25;
+            this.textBox1.Text = "Jamiromatch";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(928, 570);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.shuffle);
             this.Controls.Add(this.guycover1);
             this.Controls.Add(this.guycover2);
@@ -360,6 +371,7 @@
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -391,6 +403,7 @@
         private System.Windows.Forms.Button guycover1;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Button shuffle;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }
 
