@@ -11,11 +11,11 @@ using System.Media;
 
 namespace Jamiro_match
 {
-    public partial class Form1 : Form
+    public partial class Jamiromatch : Form
     {
         private SoundPlayer sound1;
 
-        public Form1()
+        public Jamiromatch()
         {
             InitializeComponent();
             sound1 = new SoundPlayer("ALR.wav");
