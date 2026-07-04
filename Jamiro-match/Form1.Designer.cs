@@ -428,8 +428,9 @@
             this.Controls.Add(this.peakyj1);
             this.Controls.Add(this.orangebackj2);
             this.Controls.Add(this.orangebackj1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Jamiromatch";
-            this.Text = "Jamiromatch";
+            this.Text = "Jamiromatch!";
             this.ResumeLayout(false);
             this.PerformLayout();
 
