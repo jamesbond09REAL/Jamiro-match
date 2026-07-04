@@ -26,6 +26,7 @@ namespace Jamiro_match
         public int guy = 0;
         public int snail = 0;
         public int tuff = 0;
+        public int wincount = 0;
         
         
 
@@ -42,6 +43,7 @@ namespace Jamiro_match
                 orangebackj2.Visible = false;
                 orange = 9999;
                 sound1.Play(); // Play sound on match
+                wincount++;
             }
             
             
@@ -66,6 +68,8 @@ namespace Jamiro_match
                 orangebackj2.Visible = false;
                 orange = 9999;
                 sound1.Play();
+                wincount++;
+
 
             }
 
@@ -91,6 +95,8 @@ namespace Jamiro_match
                 peakyj2.Visible = false;
                 peaky = 9999;
                 sound1.Play();
+                wincount++;
+
             }
 
 
@@ -116,6 +122,8 @@ namespace Jamiro_match
                 peakyj2.Visible = false;
                 peaky = 9999;
                 sound1.Play();
+                wincount++;
+
             }
 
 
@@ -139,6 +147,8 @@ namespace Jamiro_match
                 thegang2.Visible = false;
                 gang = 9999;
                 sound1.Play();
+                wincount++;
+
             }
 
 
@@ -162,6 +172,8 @@ namespace Jamiro_match
                 thegang2.Visible = false;
                 gang = 9999;
                 sound1.Play();
+                wincount++;
+
             }
 
 
@@ -185,6 +197,8 @@ namespace Jamiro_match
                 manwearing2.Visible = false;
                 guy = 9999;
                 sound1.Play();
+                wincount++;
+
             }
 
 
@@ -208,6 +222,8 @@ namespace Jamiro_match
                 manwearing2.Visible = false;
                 guy = 9999;
                 sound1.Play();
+                wincount++;
+
             }
 
 
@@ -231,6 +247,8 @@ namespace Jamiro_match
                 snailmail2.Visible = false;
                 snail = 9999;
                 sound1.Play();
+                wincount++;
+
             }
             orange--;
             peaky--;
@@ -252,6 +270,8 @@ namespace Jamiro_match
                 snailmail2.Visible = false;
                 snail = 9999;
                 sound1.Play();
+                wincount++;
+
             }
             orange--;
             peaky--;
@@ -273,6 +293,8 @@ namespace Jamiro_match
                 tuffaura2.Visible = false;
                 tuff = 9999;
                 sound1.Play();
+                wincount++;
+
             }
             orange--;
             peaky--;
@@ -295,6 +317,8 @@ namespace Jamiro_match
                 tuffaura2.Visible = false;
                 tuff = 9999;
                 sound1.Play();
+                wincount++;
+
             }
             orange--;
             peaky--;
@@ -334,6 +358,12 @@ namespace Jamiro_match
             {
                 tuffcover1.Visible = true;
                 tuffcover2.Visible = true;
+            }
+            if(wincount == 6)
+            {
+                timer1.Stop();
+                MessageBox.Show("You Win!");
+                Application.Exit();
             }
         }
 
